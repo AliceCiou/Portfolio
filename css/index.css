@@ -11,13 +11,21 @@
 }
 #works{
     background-image: url(../personal/img/worksbg.png);
-
+    padding-left: 200px;
+    /* padding-right: 100px; */
+    text-align: center;
 }
 
 /* 視窗寬高滿版 */
 html,body{
     width: 100%;
     height: 100%;
+   
+    font-family:  Arial, sans-serif;
+}
+.container{
+    width: 80%;
+    margin:auto;
 }
 /* 各區背景共同設定 */
 section{
@@ -26,6 +34,9 @@ section{
     background-size: cover;
     background-position: center center;
     padding-top: 150px;
+}
+#works{
+    padding-top: 30px;
 }
 /* 文字方塊設定 */
 .txt-bg{
@@ -79,16 +90,18 @@ section{
 #about img{
     width: 100%;
 } */
-#works img{
-    width: 20%;
-    /* height: 100px; */
-    border: 10px solid white;
-    /* border-radius: 50%; */
-    margin: 20px;
-}
-#works img h3{
-    text-align: center;
-}
+
+
 #works .box{
-    float: left;
+    width:15%;
+    display: inline-block;
 }
+#works img{
+    width: 80%;
+    /* float: left; */
+    border: 10px solid white;
+    
+    margin: 30px;}
+#works .box h3{
+    font-size: 14pt;
+    text-align: center;}
