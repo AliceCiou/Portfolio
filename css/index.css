@@ -1,79 +1,116 @@
 html,body{
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     height: 100%;
     font-family:  Arial, sans-serif;
 }
 
+nav a{
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+section{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
 .navbar{
     width: 100%;
     margin:auto;
 }
 #home img{
-    height: 100%;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
     margin: auto;
+    margin-top: 50px;
 }
 
 
 #about{
-    
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-image: url(../personal/img/aboutimgbg.jpg);
+    background-position: top center;
+    background-image: url(../personal/img/aoubt1_.jpg);
     width: 100%;
+    height: 100%;
     margin:auto;
     /* padding-top: 50px; */
 }
 
 #about h2 img{
-    
+    height:100%;
     margin:0;
-    text-align: center;
+   
+    /* text-align: center; */
     
 }
+#about .aboutimg{
+    text-align: center;
+}
 #about .aboutimg img{
-    margin-top: 20px;
-    width: 30%;
+    
+    /* top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+    margin-top: 10px;
+    width: 55%;
+    
 }
 
 #abouttxt{
-
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-image: url(../personal/img/aboutimgbg.jpg);
+    background-position: bottom center;
+    background-image: url(../personal/img/aoubt2_.jpg);
     width: 100%;
+    /* height: 1024px; */
     margin:auto;
+    padding-bottom: 100px;
 }
 #abouttxt .txt{
-    
+    margin: auto;
     padding-top: 50px;
+    
 }
 #abouttxt .txt p{
+    text-align: center;
     font-size: 18pt;
     line-height: 1.5;
+    letter-spacing: 2px;
 }
 #abouttxt .txt h2{
-    color: rgb(79, 54, 19);
+    
+    -webkit-text-stroke: 0.2px rgb(0, 110, 200);
+    padding-bottom: 10px;
+    color: rgb(0, 110, 200);
     font-size: 24pt;
-    text-decoration-style: wavy;
+    /* text-decoration-style: bold; */
     line-height: 1.5;
+    letter-spacing: 3px;
+    text-align: center;
+    
     
 }
 #works{
-    
+    text-align: center;
     width: 100%;
     margin:auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     padding-bottom: 50px;
-    background-image: url(../personal/img/worksimg.jpg);
+    background-image: url(../personal/img/works_.jpg);
+}
+#works .container{
+    margin: auto;
+    padding: auto;
 }
 #works h2 img{
     
@@ -82,25 +119,39 @@ html,body{
     
 }
 #works .box{
+    /* padding: auto; */
     display: inline-block;
     width: 20%;
     margin: auto;
     /* margin-left: 60px; */
-    margin-top: 50px;
+    /* margin: 50px 0; */
     border-radius: 20% 0% 20% 0;
     
+}
+#works .container .row{
+    margin: auto;
 }
 #works .box img{
     border: 5px solid rgb(224, 216, 195);
     width: 100%;
     border-radius: 20% 0 20% 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #works h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-top: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 #works .box .more{
-    font-size: 28pt;
+    /* margin: 10px; */
+    border: 3px rgb(173, 149, 125) hidden;
+    padding: 10px;
+    background-color: rgb(240, 238, 255);
+    font-size: 24pt;
+    border-radius: 30px;
 }
 .copy{
     width: 100%;
@@ -113,12 +164,20 @@ html,body{
     text-align: center;
     font-size: 12pt;
     font-size: auto;
+    letter-spacing: 2px;
 }
-#works a{color: rgb(122, 153, 181);
+#works a{color: rgb(12, 42, 69);
     text-decoration: none;
+    
     
 }
 #works a:hover{
-    color: rgb(122, 153, 181);
     text-decoration: none;
+    color: rgb(95, 140, 180);
+    
+}
+#works .container img:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s ease-out;
+    
 }
