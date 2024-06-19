@@ -1,107 +1,124 @@
-/* 各區背景圖 */
-#home{
-    background-image: url(../personal/img/HOME.jpg);
-}
-#about{
-   background-image: url(../personal/img/aboutbg.png);
-
-    /* background-image: url(../personal/img/ABOUTIMG.jpg); */
-   /* width: 30%; */
-   /* background-color: rgb(206, 174, 131); */
-}
-#works{
-    background-image: url(../personal/img/worksbg.png);
-    padding-left: 200px;
-    /* padding-right: 100px; */
-    text-align: center;
-}
-
-/* 視窗寬高滿版 */
 html,body{
+    text-align: center;
     width: 100%;
     height: 100%;
-   
     font-family:  Arial, sans-serif;
 }
-.container{
-    width: 80%;
+
+.navbar{
+    width: 100%;
     margin:auto;
 }
-/* 各區背景共同設定 */
-section{
+#home img{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 150px;
+    width: 100%;
+    margin: auto;
+}
+
+
+#about{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../personal/img/aboutimgbg.jpg);
+    width: 100%;
+    margin:auto;
+    /* padding-top: 50px; */
+}
+
+#about h2 img{
+    
+    margin:0;
+    text-align: center;
+    
+}
+#about .aboutimg img{
+    margin-top: 20px;
+    width: 30%;
+}
+
+#abouttxt{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../personal/img/aboutimgbg.jpg);
+    width: 100%;
+    margin:auto;
+}
+#abouttxt .txt{
+    
+    padding-top: 50px;
+}
+#abouttxt .txt p{
+    font-size: 18pt;
+    line-height: 1.5;
+}
+#abouttxt .txt h2{
+    color: rgb(79, 54, 19);
+    font-size: 24pt;
+    text-decoration-style: wavy;
+    line-height: 1.5;
+    
 }
 #works{
-    padding-top: 30px;
+    
+    width: 100%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 50px;
+    background-image: url(../personal/img/worksimg.jpg);
 }
-/* 文字方塊設定 */
-.txt-bg{
-    background-color: rgba(255, 255,255,.7);
-    border-radius: 50px;
-    padding: 50px;
-    text-align: justify;
-    width: 800px;
-    margin: auto;
-}
-.txt-bg h2{
+#works h2 img{
+    
+    margin:auto;
     text-align: center;
-}
-.txt-bg i{
-    color: brown;
-}
-.txt-bgabout{
-    background-color: rgba(255, 255,255,.3);
-    /* text-shadow: 2pt; */
-    border-radius: 50px;
-    padding: 50px ;
-    text-align: justify;
-    width: 800px;
-    margin: auto;
     
 }
-.txt-bgabout h2{
-    color: rgb(77, 23, 7);
-    
-    /* text-shadow: 2pt; */
-    text-align: left;
-    line-height: 2.5;
-    font-size: 24px;
-}
-.txt-bgabout p{
-    /* text-shadow: 2pt; */
-    text-align: justify;
-    line-height: 2;
-}
-/* #home .homesize{
-    width: 100%;
-    margin: auto;
-}
-#home img{
-    width: 100%;
-}
-#about .aboutsize{
-    width: 100%;
-    margin: auto;
-}
-#about img{
-    width: 100%;
-} */
-
-
 #works .box{
-    width:15%;
     display: inline-block;
-}
-#works img{
-    width: 80%;
-    /* float: left; */
-    border: 10px solid white;
+    width: 20%;
+    margin: auto;
+    /* margin-left: 60px; */
+    margin-top: 50px;
+    border-radius: 20% 0% 20% 0;
     
-    margin: 30px;}
-#works .box h3{
-    font-size: 14pt;
-    text-align: center;}
+}
+#works .box img{
+    border: 5px solid rgb(224, 216, 195);
+    width: 100%;
+    border-radius: 20% 0 20% 0;
+}
+#works h3{
+    text-align: center;
+    font-size: 16px;
+}
+#works .box .more{
+    font-size: 28pt;
+}
+.copy{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(120, 157, 162);
+}
+.copy p{
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    font-size: auto;
+}
+#works a{color: rgb(122, 153, 181);
+    text-decoration: none;
+    
+}
+#works a:hover{
+    color: rgb(122, 153, 181);
+    text-decoration: none;
+}
